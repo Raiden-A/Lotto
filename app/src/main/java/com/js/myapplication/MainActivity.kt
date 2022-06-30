@@ -15,6 +15,7 @@ import com.js.myapplication.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
+    private var testValue = "의미없는 변수"
 
     private val numberTextList: List<TextView> by lazy {
         listOf<TextView>(
